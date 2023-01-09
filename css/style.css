@@ -52,4 +52,7 @@ section {
       object-fit: cover;
       object-position: center;
    }
+   .justify-content-evenly{
+      justify-content: center;
+   }
 }
