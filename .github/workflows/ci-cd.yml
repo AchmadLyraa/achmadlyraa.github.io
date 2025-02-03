@@ -1,6 +1,8 @@
 name: CI/CD for React Portfolio
 
-# Jalankan workflow saat push ke branch master (sesuaikan dengan nama branch kamu)
+permissions:
+  contents: write
+
 on:
   push:
     branches: [master]
@@ -10,25 +12,20 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout repository
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      # Setup Node.js (gunakan versi yang sesuai, misalnya 16 atau 18)
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: "16" # Ganti dengan versi yang kamu gunakan
+          node-version: "16"
 
-      # Install dependencies
       - name: Install Dependencies
         run: npm install
 
-      # Jalankan test (jika ada test; bisa dilewati kalau belum ada)
       - name: Run Tests
         run: npm test -- --watchAll=false
 
-      # Build aplikasi
       - name: Build Application
         run: npm run build
 
@@ -51,6 +48,10 @@ jobs:
       - name: Build Application
         run: npm run build
 
-      # Deploy ke GitHub Pages menggunakan gh-pages
       - name: Deploy to GitHub Pages
-        run: npm run deploy
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          npm run deploy
