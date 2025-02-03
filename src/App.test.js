@@ -2,16 +2,16 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 
-// Buat elemen yang diharapkan agar tidak null
 beforeAll(() => {
-	const primaryLangIcon = document.createElement("div");
-	primaryLangIcon.id = window.$primaryLanguageIconId || "primary-lang-icon";
-	document.body.appendChild(primaryLangIcon);
+	// Buat elemen untuk primary language icon
+	const primaryIcon = document.createElement("span");
+	primaryIcon.id = window.$primaryLanguageIconId || "primary-lang-icon";
+	document.body.appendChild(primaryIcon);
 
-	const secondaryLangIcon = document.createElement("div");
-	secondaryLangIcon.id =
-		window.$secondaryLanguageIconId || "secondary-lang-icon";
-	document.body.appendChild(secondaryLangIcon);
+	// Buat elemen untuk secondary language icon
+	const secondaryIcon = document.createElement("span");
+	secondaryIcon.id = window.$secondaryLanguageIconId || "secondary-lang-icon";
+	document.body.appendChild(secondaryIcon);
 });
 
 it("renders without crashing", () => {

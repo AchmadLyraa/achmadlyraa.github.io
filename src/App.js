@@ -33,12 +33,16 @@ class App extends Component {
 			oppositeLangIconId === window.$primaryLanguageIconId
 				? window.$secondaryLanguageIconId
 				: window.$primaryLanguageIconId;
-		document
-			.getElementById(oppositeLangIconId)
-			.removeAttribute("filter", "brightness(40%)");
-		document
-			.getElementById(pickedLangIconId)
-			.setAttribute("filter", "brightness(40%)");
+
+		const oppositeElement = document.getElementById(oppositeLangIconId);
+		const pickedElement = document.getElementById(pickedLangIconId);
+
+		if (oppositeElement) {
+			oppositeElement.removeAttribute("filter");
+		}
+		if (pickedElement) {
+			pickedElement.setAttribute("filter", "brightness(40%)");
+		}
 	}
 
 	componentDidMount() {
