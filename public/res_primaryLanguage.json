@@ -1,0 +1,89 @@
+{
+	"basic_info": {
+		"description_header": "Hi",
+		"description": "I'm Achmad Bayhaqi! 👋 A Web Developer specializing in Front-End (React) ⚛️, with Back-End (JavaScript) skills 🔙 and a basic grasp of 3D modeling & animation 🎨🖥️. Always ready to create awesome projects that meet global standards 🌍 for an amazing user experience! 🚀",
+		"section_name": {
+			"about": "About me",
+			"projects": "3D Projects",
+			"skills": "Programming Skills",
+			"experience": "Experience"
+		}
+	},
+	"projects": [
+		{
+			"title": "Product Ads",
+			"startDate": "2020",
+			"description": "Using Blender and Premiere Pro",
+			"images": ["images/portfolio/adds/lays.jpeg"],
+			"url": "",
+			"technologies": [
+				{
+					"class": "devicon-blender-original",
+					"name": "Blender"
+				},
+				{
+					"class": "devicon-premierepro-plain",
+					"name": "Premiere Pro"
+				}
+			]
+		},
+		{
+			"title": "Grease Pencils",
+			"startDate": "2020",
+			"description": "Using Blender",
+			"images": [
+				"images/portfolio/grease-pencil/city-plants.jpeg",
+				"images/portfolio/grease-pencil/flower.jpeg"
+			],
+			"url": "",
+			"technologies": [
+				{
+					"class": "devicon-blender-original",
+					"name": "Blender"
+				}
+			]
+		},
+		{
+			"title": "3D Scenes",
+			"startDate": "2021",
+			"description": "Using Blender",
+			"images": [
+				"images/portfolio/scenery/enchanted-forest.jpeg",
+				"images/portfolio/scenery/desk.jpeg"
+			],
+			"url": "",
+			"technologies": [
+				{
+					"class": "devicon-blender-original",
+					"name": "Blender"
+				}
+			]
+		}
+	],
+	"experience": [
+		{
+			"company": "DefOpenSource",
+			"title": "Front-End Developer",
+			"years": "10.2019 - present",
+			"mainTech": ["Angular 8/9/10"],
+			"technologies": [
+				"REST API",
+				"RxJS",
+				"JavaScript",
+				"Bootstrap",
+				"MDBootstrap",
+				"EF Core",
+				".NET Core",
+				"SignalR",
+				"Angular Material"
+			]
+		},
+		{
+			"company": "Serros Solutions",
+			"title": "Intern",
+			"years": "01.2018 - 09.2019",
+			"mainTech": ["Angular 7/8"],
+			"technologies": ["RxJS", "Django", "PHP", "JavaScript", "DHTMLX Gantt"]
+		}
+	]
+}
