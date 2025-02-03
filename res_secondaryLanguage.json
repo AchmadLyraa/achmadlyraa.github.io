@@ -1,0 +1,93 @@
+{
+	"basic_info": {
+		"description_header": "Hai",
+		"description": "Namaku Achmad Bayhaqi! 👋 Aku seorang Web Developer yang fokus di Front-End (React) ⚛️, paham Back-End (JavaScript) 🔙, dan punya dasar di 3D modeling & animasi 🎨🖥️. Selalu siap bikin proyek keren dengan standar global 🌍 biar pengalaman pengguna makin mantap! 🚀",
+		"section_name": {
+			"about": "Tentang Saya",
+			"projects": "Proyek 3D",
+			"skills": "Skill Programming",
+			"experience": "Pengalaman"
+		}
+	},
+	"projects": [
+		{
+			"title": "Iklan Produk",
+			"startDate": "2020",
+			"description": "Menggunakan Blender dan Premiere Pro",
+			"images": ["images/portfolio/adds/lays.jpeg"],
+			"url": "",
+			"technologies": [
+				{
+					"class": "devicon-blender-original",
+					"name": "Blender"
+				},
+				{
+					"class": "devicon-premierepro-plain",
+					"name": "Premiere Pro"
+				}
+			]
+		},
+		{
+			"title": "Grease Pencils",
+			"startDate": "2020",
+			"description": "Menggunakan Blender",
+			"images": [
+				"images/portfolio/grease-pencil/city-plants.jpeg",
+				"images/portfolio/grease-pencil/flower.jpeg"
+			],
+			"url": "",
+			"technologies": [
+				{
+					"class": "devicon-blender-original",
+					"name": "Blender"
+				}
+			]
+		},
+		{
+			"title": "Adegan 3D",
+			"startDate": "2021",
+			"description": "Menggunakan Blender",
+			"images": [
+				"images/portfolio/scenery/enchanted-forest.jpeg",
+				"images/portfolio/scenery/desk.jpeg"
+			],
+			"url": "",
+			"technologies": [
+				{
+					"class": "devicon-blender-original",
+					"name": "Blender"
+				}
+			]
+		}
+	],
+	"experience": [
+		{
+			"company": "DefOpenSource",
+			"title": "Front-End Developer",
+			"years": "10.2019 - obecnie",
+			"mainTech": ["Angular 8/9/10"],
+			"technologies": [
+				"REST API",
+				"RxJS",
+				"JavaScript",
+				"Bootstrap",
+				"MDBootstrap",
+				"EF Core",
+				"Angular Material"
+			]
+		},
+		{
+			"company": "Serros Solutions",
+			"title": "Stażystka",
+			"years": "01.2018 - 09.2019",
+			"mainTech": ["Angular 7/8"],
+			"technologies": [
+				"REST API",
+				"RxJS",
+				"Swagger",
+				"JavaScript",
+				"DHTMLX Gantt"
+			]
+		}
+	]
+}
