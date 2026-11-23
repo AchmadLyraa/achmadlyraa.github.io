@@ -19,39 +19,24 @@
 	"skills": {
 		"icons": [
 			{
-				"name": "Next.js",
-				"class": "devicon-nextjs-plain",
+				"name": "HTML 5",
+				"class": "devicon-html5-plain",
 				"level": "95"
 			},
 			{
-				"name": "React",
-				"class": "devicon-react-original",
+				"name": "CSS 3",
+				"class": "devicon-css3-plain",
 				"level": "95"
 			},
 			{
-				"name": "Jest",
-				"class": "devicon-jest-plain",
+				"name": "Angular",
+				"class": "devicon-angularjs-plain",
 				"level": "80"
-			},
-			{
-				"name": "Postman",
-				"class": "devicon-postman-plain",
-				"level": "80"
-			},
-			{
-				"name": "Webpack",
-				"class": "devicon-webpack-plain",
-				"level": "90"
 			},
 			{
 				"name": "TypeScript",
 				"class": "devicon-typescript-plain",
 				"level": "90"
-			},
-			{
-				"name": "NodeJs",
-				"class": "devicon-nodejs-plain-wordmark",
-				"level": "80"
 			},
 			{
 				"name": "JavaScript",
@@ -69,23 +54,13 @@
 				"level": "85"
 			},
 			{
-				"name": "Tailwind",
-				"class": "devicon-tailwindcss-original",
+				"name": "C#",
+				"class": "devicon-csharp-plain",
 				"level": "65"
 			},
 			{
 				"name": "MySql",
 				"class": "devicon-mysql-plain",
-				"level": "60"
-			},
-			{
-				"name": "PostgreSql",
-				"class": "devicon-postgresql-plain",
-				"level": "60"
-			},
-			{
-				"name": "GIT",
-				"class": "devicon-git-plain",
 				"level": "60"
 			}
 		]
